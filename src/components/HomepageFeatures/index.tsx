@@ -5,48 +5,50 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  icon: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Documentación Clara',
+    icon: '📚',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Accede a documentación detallada y ejemplos prácticos para integrar
+        las APIs gubernamentales en tus aplicaciones.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Datos Actualizados',
+    icon: '🔄',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Obtén acceso a información actualizada de las instituciones
+        gubernamentales de Paraguay a través de APIs REST.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Fácil Integración',
+    icon: '🔌',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        APIs diseñadas siguiendo estándares modernos, con endpoints
+        consistentes y respuestas JSON bien estructuradas.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, icon, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className={clsx('text--center', styles.featureIcon)}>
+        <span role="img" aria-label={title} className={styles.featureEmoji}>
+          {icon}
+        </span>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
