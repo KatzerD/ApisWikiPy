@@ -1,45 +1,57 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 title: Endpoints
 ---
 
-# 5. Endpoints por Conjunto de Datos
+# Endpoints
 
 La API del Ministerio de Hacienda organiza sus datos en múltiples conjuntos temáticos. Cada uno cuenta con un endpoint específico que permite acceder a información estructurada, filtrable y paginable.
 
+
+## 📄 Estructura base
+
+La URL base de la API es:
+
+https://datos.hacienda.gov.py:443/odmh-api-v2/
+
+
+Todos los endpoints mencionados a continuación se construyen a partir de esta URL base.
+
+---
+
 A continuación se describen los principales conjuntos de datos disponibles:
 
-## 🏛️ 5.1 Presupuesto General
+## 🏛️ Presupuesto General
 
 - **Endpoint**: `/presupuesto`
 - **Descripción**: Detalla los montos asignados a distintas entidades del Estado por año fiscal.
 - **Parámetros comunes**: `anio`, `entidad`, `programa`, `objeto_gasto`
 
-## 🧾 5.2 Etapas del Presupuesto
+## 🧾 Etapas del Presupuesto
 
 - **Endpoint**: `/etapas_presupuesto`
 - **Descripción**: Representa los distintos momentos del proceso presupuestario (formulación, aprobación, ejecución).
 - **Parámetros comunes**: `etapa`, `entidad`, `anio`
 
-## 🏢 5.3 Entidades
+## 🏢 Entidades
 
 - **Endpoint**: `/entidades`
 - **Descripción**: Listado de instituciones públicas registradas.
 - **Parámetros comunes**: `codigo_entidad`, `nombre`
 
-## 💳 5.4 Obligaciones
+## 💳 Obligaciones
 
 - **Endpoint**: `/obligaciones`
 - **Descripción**: Información sobre pagos y compromisos asumidos por el Estado.
 - **Parámetros comunes**: `anio`, `entidad`, `monto`, `clasificador`
 
-## 💸 5.5 Transferencias
+## 💸 Transferencias
 
 - **Endpoint**: `/transferencias`
 - **Descripción**: Transferencias realizadas por el Estado a terceros, como gobernaciones, ONGs, municipios, etc.
 - **Parámetros comunes**: `beneficiario`, `entidad`, `anio`, `rubro`
 
-## 🧾 5.6 Certificados de Disponibilidad
+## 🧾 Certificados de Disponibilidad
 
 - **Endpoint**: `/certificados`
 - **Descripción**: Detalla las certificaciones presupuestarias emitidas que habilitan legalmente el uso de fondos.

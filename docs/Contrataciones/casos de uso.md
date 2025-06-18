@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Casos de Uso
+# Ejemplos de Uso
 
 Esta sección presenta ejemplos prácticos del uso de la API v3 de la DNCP para resolver necesidades comunes. Cada caso de uso incluye el propósito, la estructura de la solicitud y una respuesta esperada.
 

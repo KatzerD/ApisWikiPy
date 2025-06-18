@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
-title: Registro y Autenticación
+sidebar_position: 1
+title: Autenticación
 ---
 
-# Registro y Autenticación
+# Autenticación
 
 La API requiere autenticación mediante **tokens de acceso** para realizar la mayoría de las solicitudes. A continuación, se detalla el proceso necesario para obtener y utilizar estos tokens.
 

@@ -2,32 +2,28 @@
 sidebar_position: 2
 ---
 
-# Guía rápida (Quickstart)
+# Guía rápida
 
-Esta guía te muestra cómo comenzar a consumir la API del Congreso Nacional del Paraguay en pocos minutos.
+Esta guía te muestra cómo guiarte dentro de la Wiki.
 
 ---
 
-## 🔗 URL Base de la API
+## 🔗 URL Base de las APIs
 
-```
-https://datos.congreso.gov.py/opendata/api
-```
-
-Todos los endpoints se construyen a partir de esta URL base.
+Las urls base de cada api las encontraremos dentro de su respectiva documentación en la sección de endpoints
 
 ---
 
 ## ✅ Métodos de solicitud
 
-- La API utiliza el método **HTTP GET** para acceder a la información pública.
-- No se requiere autenticación.
+- Las APIs utilizan el métodos **HTTP GET** para acceder a la información pública.
+- Se requiere autenticación para desbloquear mejores características.
 
 ---
 
 ## 📄 Formatos de Respuesta
 
-La API devuelve datos en formato JSON por defecto. Cada respuesta incluye:
+Las APIs devuelven datos en formato JSON por defecto. Cada respuesta pueden incluir:
 
 - **meta**: Metadatos sobre el total de resultados y la paginación.
 - **data**: Array de objetos con los datos solicitados.
@@ -60,27 +56,17 @@ La API devuelve datos en formato JSON por defecto. Cada respuesta incluye:
 
 ## 📥 Ejemplo de solicitud básica
 
+Por consola
 ```
 curl https://datos.congreso.gov.py/opendata/api/data/proyecto?limit=5
 ```
 
+Usando fetch en JavaScript
 ```
-// Usando fetch en JavaScript
 const res = await fetch("https://datos.congreso.gov.py/opendata/api/data/proyecto?limit=5");
 const json = await res.json();
 console.log(json);
 ```
 
-## 🔁 Paginación
-Para controlar la cantidad de resultados devueltos, utilizá los parámetros:
-
-- limit: número máximo de resultados por página (por defecto: 50).
-
-- offset: desplazamiento desde el inicio (por defecto: 0).
-
-```
-GET /data/proyecto?offset=50&limit=50
-```
-
 ## ⚠️ ¿Errores?
-Si obtenés errores (como 400 o 404), consultá la sección “Gestión de errores”.
+Si obtenés errores (como 400 o 404), consultá la sección “Gestión de errores” de cada API.

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 
-# Referencia de Endpoints
+# Endpoints
 
 La API v3 de la DNCP expone múltiples endpoints organizados en torno a los principales objetos del ciclo de contratación pública, muchos de ellos siguiendo la estructura OCDS. A continuación se detallan los principales puntos de acceso.
 

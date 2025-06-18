@@ -2,7 +2,7 @@
 id: endpoints-index
 title: Endpoints
 sidebar_label: Endpoints
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Endpoints

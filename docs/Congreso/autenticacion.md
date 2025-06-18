@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Autenticación y Acceso
+# Autenticación
 
 ## ¿Requiere autenticación?
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 7
+sidebar_position: 3
 ---
 
-# Manejo de Errores
+# Gestión de Errores
 
 Cuando se realizan solicitudes a la API v3 de la DNCP, pueden ocurrir errores debido a autenticación incorrecta, límites de uso superados o problemas con los parámetros enviados. Esta sección describe cómo interpretar y manejar adecuadamente esos errores.
 

@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Paraguay Government APIs',
+  title: 'Paraguay Wiki API',
   tagline: 'Documentación para desarrolladores de datos abiertos del gobierno de Paraguay',
   favicon: 'img/favicon.ico',
 
@@ -68,17 +68,16 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/paraguay-apis-social-card.jpg',
     navbar: {
-      title: 'Paraguay Government APIs',
       logo: {
-        alt: 'Paraguay Government APIs Logo',
-        src: 'img/logo.svg',
+        alt: 'Paraguay Wiki API',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Documentation',
+          label: 'Documentación',
         },
         {
           type: 'dropdown',
@@ -87,21 +86,21 @@ const config: Config = {
           items: [
             {
               label: 'API del Congreso',
-              to: '/docs/Congreso/intro',
+              to: '/docs/congreso',
             },
             {
               label: 'API del Ministerio de Finanzas',
-              to: '/docs/Hacienda/intro',
+              to: '/docs/hacienda',
             },
             {
-              label: 'API de contrataciones públicas',
-              to: '/docs/Contrataciones/intro',
+              label: 'API de Contrataciones Públicas',
+              to: '/docs/contrataciones',
             },
           ],
         },
         {to: '/blog', label: 'Updates', position: 'left'},
         {
-          href: 'https://github.com/your-github-username/paraguay-gov-apis',
+          href: 'https://github.com/KatzerD/ApisWikiPy',
           label: 'GitHub',
           position: 'right',
         },
@@ -115,20 +114,20 @@ const config: Config = {
           items: [
             {
               label: 'API del Congreso',
-              to: '/docs/Congreso/intro',
+              to: '/docs/congreso',
             },
             {
               label: 'API del Ministerio de Finanzas',
-              to: '/docs/Hacienda/intro',
+              to: '/docs/hacienda',
             },
             {
-              label: 'API de contratación pública',
-              to: '/docs/Contrataciones/intro',
+              label: 'API de Contrataciones Públicas',
+              to: '/docs/contrataciones',
             },
           ],
         },
         {
-          title: 'Official Resources',
+          title: 'Recursos oficiales',
           items: [
             {
               label: 'Datos abiertos del Congreso',
@@ -148,21 +147,17 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'GitHub Discussions',
-              href: 'https://github.com/your-github-username/paraguay-gov-apis/discussions',
-            },
-            {
-              label: 'Updates',
+              label: 'Contribuidores',
               to: '/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/your-github-username/paraguay-gov-apis',
+              href: 'https://github.com/KatzerD/ApisWikiPy',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Paraguayan Government APIs Documentation. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Paraguay Wiki API. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

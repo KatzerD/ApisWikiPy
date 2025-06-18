@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Anexos y Recursos Adicionales
+# Recursos Adicionales
 
 Esta sección incluye información complementaria útil para entender mejor la estructura de la API, así como recursos externos y enlaces relevantes.
 
