@@ -5,14 +5,12 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  icon: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Documentación Clara',
-    icon: '📚',
     description: (
       <>
         Accede a documentación detallada y ejemplos prácticos para integrar
@@ -22,7 +20,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Datos Actualizados',
-    icon: '🔄',
     description: (
       <>
         Obtén acceso a información actualizada de las instituciones
@@ -32,7 +29,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Fácil Integración',
-    icon: '🔌',
     description: (
       <>
         APIs diseñadas siguiendo estándares modernos, con endpoints
