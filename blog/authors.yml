@@ -1,23 +1,21 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
+enrique:
+  name: Enrique Centurion
+  title: Programador
+  url: https://github.com/KatzerD
+  image_url: https://github.com/KatzerD.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+alejandro:
+  name: Alejandro Martinez
+  title: Doc Mantainer - Congreso API
+  url: https://github.com/alejandromtz619
+  image_url: https://github.com/alejandromtz619.png
+
+rodolfo:
+  name: Rodolfo Avalos
+  title: Doc Mantainer - Hacienda API
+  image_url: https://github.com/alejandromtz619.png
+
+matias:
+  name: Matias Romero
+  title: Doc Mantainer - Contrataciones API
+  image_url: https://github.com/alejandromtz619.png

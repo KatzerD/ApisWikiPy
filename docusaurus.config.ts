@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-github-username/paraguay-gov-apis/edit/main/',
+            'https://github.com/KatzerD/ApisWikiPy/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +51,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-github-username/paraguay-gov-apis/edit/main/',
+            'https://github.com/KatzerD/ApisWikiPy/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -70,7 +70,8 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'Paraguay Wiki API',
-        src: 'img/logo.png',
+        src: 'img/logo-claro.png',
+        srcDark: 'img/logo-oscuro.png',
       },
       items: [
         {
@@ -98,7 +99,7 @@ const config: Config = {
             },
           ],
         },
-        {to: '/blog', label: 'Updates', position: 'left'},
+        {to: '/blog', label: 'Contribuidores', position: 'left'},
         {
           href: 'https://github.com/KatzerD/ApisWikiPy',
           label: 'GitHub',
