@@ -5,33 +5,33 @@ title: FAQ y Soporte
 
 # FAQ y Soporte
 
-Esta sección recopila las preguntas más frecuentes (FAQ) sobre el uso de la API y proporciona orientación sobre cómo obtener ayuda en caso de problemas técnicos o dudas.
+Esta sección recopila las preguntas más frecuentes (FAQ) sobre el uso de las APIs públicas del Paraguay y proporciona orientación sobre cómo obtener ayuda en caso de problemas técnicos o dudas.
 
 ## 💡 Preguntas Frecuentes
 
-### ¿Necesito autenticarme para usar la API?
+### ¿Necesito autenticarme para usar las APIs?
 
-No necesariamente. Algunos endpoints pueden consultarse de forma anónima, pero el acceso completo requiere autenticación mediante token.
+Depende del servicio. Algunas APIs permiten el acceso público a ciertos endpoints, pero muchas funcionalidades requieren autenticación mediante token.
 
 ### ¿Cómo obtengo mi token de acceso?
 
-Debes registrarte en el portal [https://datos.hacienda.gov.py](https://datos.hacienda.gov.py) y usar tu `client_id` y `client_secret` para generar el token a través del endpoint `/auth/token`.
+En la mayoría de los casos, debes registrarte en el portal correspondiente (por ejemplo: datos.congreso.gov.py, datos.hacienda.gov.py, contrataciones.gov.py) y usar tu `client_id` y `client_secret` para generar un token de acceso mediante un endpoint del tipo `/auth/token` o similar.
 
 ### ¿Cuánto dura un token?
 
-Cada token tiene una duración de 15 minutos. Pasado este tiempo, deberás solicitar uno nuevo.
+La duración varía según la API, pero suele ser de entre 15 minutos a 1 hora. Consultá la documentación específica del proveedor.
 
 ### ¿Cómo sé si llegué al límite de solicitudes?
 
-La respuesta HTTP incluirá cabeceras como `X-Rate-Limit-Remaining` y `X-Rate-Limit-Reset`. También puedes recibir un error `429 Too Many Requests`.
+La respuesta HTTP puede incluir cabeceras como `X-Rate-Limit-Remaining` y `X-Rate-Limit-Reset`. Si excedes el límite, podrías recibir un error `429 Too Many Requests`.
 
-### ¿Puedo integrar esta API con herramientas como Power BI o Excel?
+### ¿Puedo integrar estas APIs con herramientas como Power BI o Excel?
 
-Sí. Puedes conectarte utilizando consultas web (con headers personalizados) o scripts intermedios en Python/Node que descarguen datos y los exporten a CSV o JSON.
+Sí. Podés conectarte utilizando consultas web (con headers personalizados) o scripts intermedios en Python o Node.js que descarguen los datos y los exporten a formatos compatibles como CSV o JSON.
 
 ### ¿Qué pasa si un endpoint devuelve 500?
 
-Significa que hay un error del lado del servidor. Intenta nuevamente después de unos minutos. Si el problema persiste, considera reportarlo.
+Significa que hay un error del lado del servidor. Intentalo nuevamente después de unos minutos. Si el problema persiste, considerá reportarlo al equipo correspondiente.
 
 ---
 
@@ -46,9 +46,11 @@ Significa que hay un error del lado del servidor. Intenta nuevamente después de
 
 ## 📬 Contacto Institucional
 
-Si no encontrás solución en esta documentación, podés escribir a:
+Si no encontrás solución en esta documentación, podés escribir a los contactos institucionales correspondientes según la API:
 
-✉️ **soporte@hacienda.gov.py**
+✉️ **soporte@hacienda.gov.py**  
+✉️ **contacto@congreso.gov.py**  
+✉️ **soporte@dncp.gov.py**
 
 Incluí en tu mensaje:
 
@@ -57,11 +59,10 @@ Incluí en tu mensaje:
 - Código de error recibido
 - Capturas de pantalla si es posible
 
-La atención es realizada dentro del horario laboral (08:00 a 16:00) de lunes a viernes.
+La atención suele ser realizada dentro del horario laboral (08:00 a 16:00) de lunes a viernes.
 
 ---
 
 ## 🙋‍♂️ Comunidad
 
-Si desarrollás integraciones abiertas o bibliotecas externas, compartilas en foros, GitHub o redes para ayudar a otros usuarios y fortalecer el ecosistema de datos abiertos.
-
+Si desarrollás integraciones abiertas o bibliotecas externas, compartilas en foros, GitHub o redes sociales para ayudar a otros usuarios y fortalecer el ecosistema de datos abiertos en Paraguay.
