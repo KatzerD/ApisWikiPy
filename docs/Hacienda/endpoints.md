@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: 5. Endpoints por Conjunto de Datos
+title: Endpoints
 ---
 
 # 5. Endpoints por Conjunto de Datos

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Paraguay Government APIs Documentation
+# Inicio
 
 Bienvenido a la documentación completa de las API de Datos Abiertos del Gobierno de Paraguay. Este recurso está diseñado para ayudar a los desarrolladores a utilizar eficazmente los datos públicos de Paraguay mediante API bien documentadas.
 

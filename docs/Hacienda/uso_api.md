@@ -1,9 +1,9 @@
 ---
 sidebar_position: 4
-title: 4. Uso de la API
+title: Uso de la API
 ---
 
-# 4. Uso de la API
+# Uso de la API
 
 Esta sección detalla cómo interactuar correctamente con la API RESTful del Ministerio de Hacienda. Abarca los encabezados necesarios, los métodos de solicitud y las prácticas comunes para realizar peticiones exitosas.
 

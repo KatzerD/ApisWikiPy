@@ -2,7 +2,7 @@
 sidebar_position: 4.5
 ---
 
-# 4.5 Sesiones
+# Sesiones
 
 Este endpoint permite acceder a las sesiones realizadas por ambas cámaras del Congreso Nacional de Paraguay.
 

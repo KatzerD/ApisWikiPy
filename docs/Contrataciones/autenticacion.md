@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 2. Autenticación
+# Autenticación
 
 Para utilizar de forma intensiva la API v3 de la Dirección Nacional de Contrataciones Públicas (DNCP), se recomienda autenticarse utilizando el protocolo OAuth 2.0. Aunque es posible realizar consultas sin autenticación, estas están limitadas a 15 solicitudes por minuto.
 

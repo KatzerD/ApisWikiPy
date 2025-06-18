@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# 9. Recursos Adicionales
+# Recursos Adicionales
 
 En esta sección se recopilan enlaces útiles, documentación técnica y herramientas externas que complementan el uso de la API v3 de la Dirección Nacional de Contrataciones Públicas (DNCP).
 

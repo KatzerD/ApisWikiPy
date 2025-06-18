@@ -2,7 +2,7 @@
 sidebar_position: 4.2
 ---
 
-# 4.2 Parlamentarios
+# Parlamentarios
 
 Este endpoint permite acceder a información detallada sobre los parlamentarios del Congreso Nacional de Paraguay, incluyendo sus datos personales, cámara, y proyectos asociados.
 

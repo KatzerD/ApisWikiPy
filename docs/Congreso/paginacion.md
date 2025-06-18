@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# 5. Paginación y Filtros
+# Paginación y Filtros
 
 La mayoría de los endpoints de la API del Congreso Nacional del Paraguay están diseñados para devolver grandes volúmenes de datos de manera eficiente mediante paginación. Algunos también permiten aplicar filtros para limitar los resultados.
 

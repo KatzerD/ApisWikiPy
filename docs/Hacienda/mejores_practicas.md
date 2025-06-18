@@ -1,9 +1,9 @@
 ---
 sidebar_position: 8
-title: 8. Mejores Prácticas
+title: Mejores Prácticas
 ---
 
-# 8. Mejores Prácticas
+# Mejores Prácticas
 
 Para aprovechar al máximo la API del Ministerio de Hacienda, se recomienda seguir una serie de buenas prácticas técnicas y de seguridad. Estas recomendaciones ayudan a garantizar una integración eficiente, segura y respetuosa con los recursos del servidor.
 

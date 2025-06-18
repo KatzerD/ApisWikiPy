@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# 7. Manejo de Errores
+# Manejo de Errores
 
 La API del Congreso Nacional del Paraguay utiliza códigos de estado HTTP estándar para indicar el resultado de las solicitudes. Comprender estos códigos es fundamental para manejar adecuadamente errores en tus aplicaciones.
 

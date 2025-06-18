@@ -2,7 +2,7 @@
 sidebar_position: 4.3
 ---
 
-# 4.3 Comisiones
+# Comisiones
 
 Este endpoint permite acceder a información sobre las comisiones legislativas del Congreso Nacional de Paraguay, incluyendo su cámara de origen, miembros por periodo y proyectos tratados.
 

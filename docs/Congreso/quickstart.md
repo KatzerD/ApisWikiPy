@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 2. Guía rápida (Quickstart)
+# Guía rápida (Quickstart)
 
 Esta guía te muestra cómo comenzar a consumir la API del Congreso Nacional del Paraguay en pocos minutos.
 

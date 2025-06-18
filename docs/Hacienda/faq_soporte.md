@@ -1,9 +1,9 @@
 ---
 sidebar_position: 10
-title: 10. FAQ y Soporte
+title: FAQ y Soporte
 ---
 
-# 10. FAQ y Soporte
+# FAQ y Soporte
 
 Esta sección recopila las preguntas más frecuentes (FAQ) sobre el uso de la API y proporciona orientación sobre cómo obtener ayuda en caso de problemas técnicos o dudas.
 

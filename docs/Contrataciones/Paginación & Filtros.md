@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 6. Paginación y Filtros
+# Paginación y Filtros
 
 La API v3 de la DNCP está diseñada para manejar grandes volúmenes de datos. Para facilitar el consumo eficiente y evitar respuestas excesivamente grandes, se implementan mecanismos de paginación y filtrado.
 

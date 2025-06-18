@@ -1,7 +1,7 @@
 ---
 id: endpoints-index
 title: Endpoints
-sidebar_label: 4. Endpoints
+sidebar_label: Endpoints
 sidebar_position: 4
 ---
 

@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# 10. Apéndices
+# Apéndices
 
 Esta sección contiene información complementaria que puede resultar útil para interpretar los datos y utilizar correctamente la API v3 de la DNCP.
 

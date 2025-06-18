@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# 8. Preguntas Frecuentes (FAQ)
+# Preguntas Frecuentes (FAQ)
 
 A continuación se presentan algunas de las preguntas más comunes sobre el uso de la API del Congreso Nacional del Paraguay.
 

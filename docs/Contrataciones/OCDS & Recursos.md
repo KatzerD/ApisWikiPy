@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 4. Estándar Open Contracting (OCDS)
+# Estándar Open Contracting (OCDS)
 
 La API v3 de la Dirección Nacional de Contrataciones Públicas (DNCP) está alineada con el Estándar de Datos de Contrataciones Abiertas (*Open Contracting Data Standard*, OCDS), promovido por la Open Contracting Partnership. Este estándar busca mejorar la transparencia, la participación y la eficiencia en los procesos de compras públicas mediante datos estructurados.
 

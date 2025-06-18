@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 6. Ejemplos de Uso
+# Ejemplos de Uso
 
 Esta sección presenta ejemplos prácticos para consumir la API del Congreso Nacional del Paraguay desde distintos lenguajes de programación y herramientas. Podés usarlos como base para integrar los datos en tus propios proyectos.
 

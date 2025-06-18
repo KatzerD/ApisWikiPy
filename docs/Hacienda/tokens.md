@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
-title: 3. Manejo de Tokens y Límites
+title: Manejo de Tokens y Límites
 ---
 
-# 3. Manejo de Tokens y Límites
+# Manejo de Tokens y Límites
 
 El uso adecuado de los tokens y la comprensión de las políticas de limitación de solicitudes (rate limiting) son esenciales para evitar bloqueos y garantizar una integración fluida con la API.
 

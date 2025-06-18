@@ -1,9 +1,9 @@
 ---
 sidebar_position: 9
-title: 9. SDKs y Herramientas
+title: SDKs y Herramientas
 ---
 
-# 9. SDKs y Herramientas
+# SDKs y Herramientas
 
 Aunque la API del Ministerio de Hacienda no proporciona SDKs oficiales, es posible integrarla fácilmente en distintos lenguajes de programación y plataformas utilizando herramientas estándar de consumo de APIs REST.
 

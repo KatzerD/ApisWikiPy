@@ -1,9 +1,9 @@
 ---
 sidebar_position: 7
-title: 7. Manual de Usuario
+title: Manual de Usuario
 ---
 
-# 7. Manual de Usuario
+# Manual de Usuario
 
 El **Manual de Usuario** es un documento esencial que acompaña a esta API y que tiene como finalidad guiar tanto a usuarios técnicos como no técnicos en el correcto uso del sistema. Este manual proporciona explicaciones paso a paso, ejemplos ilustrativos, buenas prácticas y contexto funcional del ecosistema de datos abiertos que promueve el Ministerio de Hacienda de Paraguay.
 

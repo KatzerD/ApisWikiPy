@@ -2,7 +2,7 @@
 sidebar_position: 4.6
 ---
 
-# 4.6 Periodos
+# Periodos
 
 Este endpoint permite acceder a los periodos legislativos del Congreso Nacional de Paraguay. Los periodos se utilizan para agrupar legislaturas y asociar datos como miembros de comisiones o proyectos legislativos.
 

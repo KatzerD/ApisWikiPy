@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 3. Límites y Rendimiento
+# Límites y Rendimiento
 
 El acceso a la API v3 de la Dirección Nacional de Contrataciones Públicas (DNCP) está sujeto a ciertas restricciones para garantizar el uso equitativo y eficiente de los recursos del sistema.
 

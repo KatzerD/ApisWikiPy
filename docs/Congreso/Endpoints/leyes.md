@@ -2,7 +2,7 @@
 sidebar_position: 4.4
 ---
 
-# 4.4 Leyes
+# Leyes
 
 Este endpoint permite acceder a las leyes promulgadas por el Congreso Nacional de Paraguay, incluyendo detalles por año o por identificador.
 

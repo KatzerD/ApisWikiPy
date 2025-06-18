@@ -1,9 +1,9 @@
 ---
 sidebar_position: 6
-title: 6. Errores y Respuestas Comunes
+title: Errores y Respuestas Comunes
 ---
 
-# 6. Errores y Respuestas Comunes
+# Errores y Respuestas Comunes
 
 Durante el consumo de la API, es posible encontrarse con diversos tipos de errores HTTP. Esta sección detalla los códigos más comunes, sus posibles causas y cómo solucionarlos.
 

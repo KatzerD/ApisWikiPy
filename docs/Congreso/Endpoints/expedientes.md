@@ -2,7 +2,7 @@
 sidebar_position: 4.1
 ---
 
-# 4.1 Expedientes Legislativos
+# Expedientes Legislativos
 
 Este endpoint permite acceder a la lista de proyectos legislativos presentados en el Congreso Nacional de Paraguay.
 
